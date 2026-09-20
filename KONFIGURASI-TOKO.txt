@@ -1,0 +1,28 @@
+GALLERY WARANGKA TUNGGAK SEMI TUBAN — V3
+FITUR:
+- 20 katalog produk
+- pencarian + kategori + sorting
+- keranjang berbasis browser/localStorage
+- checkout keranjang melalui WhatsApp
+- detail produk
+- tombol Shopee dan TikTok Shop per produk
+- desain mobile-first
+
+YANG PERLU DIISI:
+1. Foto produk:
+   Buat folder "produk" lalu simpan foto sesuai nama file pada data produk, kemudian ubah fungsi tampilan .photo menjadi <img src="produk/NAMA-FILE">.
+2. Harga:
+   Edit field "price" di array products.
+3. Link marketplace:
+   Edit field "shopee" dan "tiktok" untuk setiap produk.
+4. Media sosial:
+   Tambahkan link Instagram/TikTok pada bagian kontak jika sudah tersedia.
+
+WHATSAPP:
+https://wa.me/628214030087
+
+ALAMAT:
+Jl. Pangeran Pengulu Dusun Krajan RT 05 RW 01, Desa Bejagung, Kecamatan Semanding, Kabupaten Tuban, Jawa Timur.
+
+CATATAN:
+Versi ini adalah etalase gratis. Pembayaran marketplace tetap dilakukan di Shopee/TikTok Shop. Keranjang internal digunakan untuk mengumpulkan produk dan dapat dikirim sebagai pesan WhatsApp.
