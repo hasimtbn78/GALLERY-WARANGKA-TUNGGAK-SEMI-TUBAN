@@ -34,7 +34,7 @@ footer{background:#031315;color:#cfc8b8;text-align:center;padding:30px 18px;font
 
 <section class="hero" id="beranda"><img src="logo.png" alt="Gallery Warangka Tunggak Semi Tuban"><h1>Gallery Warangka Tunggak Semi Tuban</h1>
 <p>Etalase digital karya warangka keris, kriya, souvenir, dan produk budaya dari Bejagung, Semanding, Tuban. Belanja melalui marketplace atau hubungi kami melalui WhatsApp.</p>
-<a class="btn primary" href="#produk">🛍️ LIHAT PRODUK</a><a class="btn outline" href="https://wa.me/628214030087" target="_blank">💬 WHATSAPP</a></section>
+<a class="btn primary" href="#produk">🛍️ LIHAT PRODUK</a><a class="btn outline" href="https://wa.me/6285196677382" target="_blank">💬 WHATSAPP</a></section>
 
 <section class="wrap" id="produk"><div class="title"><h2>Etalase Produk</h2><p>20 slot produk siap diisi foto, harga, deskripsi, dan URL marketplace.</p></div>
 <div class="tools"><input id="search" placeholder="🔎 Cari nama produk..." oninput="render()"><select id="sort" onchange="render()"><option value="">Urutan</option><option value="name">Nama A-Z</option><option value="cat">Kategori</option></select></div>
@@ -46,7 +46,7 @@ footer{background:#031315;color:#cfc8b8;text-align:center;padding:30px 18px;font
 
 <section class="wrap" id="kontak"><div class="title"><h2>Kontak & Lokasi</h2><p>Informasi resmi Gallery Warangka Tunggak Semi Tuban.</p></div>
 <div class="contact"><div class="box"><b>📍 ALAMAT</b><span>Jl. Pangeran Pengulu Dusun Krajan RT 05 RW 01, Desa Bejagung, Kecamatan Semanding, Kabupaten Tuban, Jawa Timur.</span></div>
-<div class="box"><b>📱 WHATSAPP</b><a href="https://wa.me/628214030087" target="_blank">0821-4030-087</a></div>
+<div class="box"><b>📱 WHATSAPP</b><a href="https://wa.me/6285196677382" target="_blank">6285196677382</a></div>
 <div class="box"><b>🎵 MEDIA SOSIAL</b><span>Tambahkan URL TikTok, Instagram, Shopee, dan TikTok Shop pada konfigurasi produk.</span></div></div></section>
 <footer><strong>GALLERY WARANGKA TUNGGAK SEMI TUBAN</strong><br>Bejagung • Semanding • Tuban • Jawa Timur<br><br>© 2026 Gallery Warangka Tunggak Semi Tuban</footer>
 
@@ -66,8 +66,8 @@ function openCart(){document.getElementById('cartList').innerHTML=cart.length?ca
 function closeModal(id){document.getElementById(id).classList.remove('open')}
 function go(url){if(url&&url!=='#')location.href=url;else alert('Link marketplace belum diisi. Masukkan URL Shopee/TikTok Shop Anda pada data produk.')}
 function goMarket(name){if(current)go(name==='Shopee'?current.shopee:current.tiktok)}
-function askWA(){if(!current)return;location.href='https://wa.me/628214030087?text='+encodeURIComponent('Halo Gallery Warangka Tunggak Semi Tuban, saya tertarik dengan '+current.name+' ('+current.sku+'). Mohon informasi harga dan ketersediaannya.')}
-function checkoutWA(){if(!cart.length)return alert('Keranjang masih kosong.');let text='Halo Gallery Warangka Tunggak Semi Tuban, saya ingin memesan:%0A'+cart.map(x=>'- '+x.name+' x'+x.qty).join('%0A');location.href='https://wa.me/628214030087?text='+encodeURIComponent(text)}
+function askWA(){if(!current)return;location.href='https://wa.me/6285196677382?text='+encodeURIComponent('Halo Gallery Warangka Tunggak Semi Tuban, saya tertarik dengan '+current.name+' ('+current.sku+'). Mohon informasi harga dan ketersediaannya.')}
+function checkoutWA(){if(!cart.length)return alert('Keranjang masih kosong.');let text='Halo Gallery Warangka Tunggak Semi Tuban, saya ingin memesan:%0A'+cart.map(x=>'- '+x.name+' x'+x.qty).join('%0A');location.href='https://wa.me/6285196677382?text='+encodeURIComponent(text)}
 render();saveCart();
 </script>
 </body></html>
